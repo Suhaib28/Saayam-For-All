@@ -1,0 +1,258 @@
+nav li {
+    display: inline;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.logo {
+    width: 125px;
+  }
+
+header img{
+    float: left;
+}
+
+header {
+    background-color: #c1e7c2;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    height: 18vh;
+    text-align: center;
+  }
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center; /* Centers items vertically */
+    justify-content: center; /* Centers items horizontally */
+    padding: 20px; /* Optional: add padding if needed */
+    text-align: center; /* Centers text if needed */
+}
+.header-logo {
+    margin-right: 10px; /* Optional: space between logo and text */
+}
+
+
+header h1 {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+   letter-spacing: 0.05em;
+    padding: 1.5em 0;
+    font-size: 500%;
+  }
+
+h1{
+    font-family: Helvetica, Arial, sans-serif;
+    color: #000000;
+}
+
+body {
+    color: #555555;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #000000;
+    text-align: center;
+    padding: 0.25em;
+    font-size: 250%;
+  }
+
+  nav {
+    font-weight: bold;
+    font-size: 120%;
+    text-align: center;
+    background-color: #c1e7c2;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 0.5em 0;
+    letter-spacing: 0.02em;
+  }
+
+  nav a {
+    text-decoration: none;
+    margin-right: 75px;
+    transition: all ease-out 0.6s;
+  }
+
+  nav a:link {
+    color: #243925;
+  }
+
+  nav a:visited {
+    color: #243925;
+  }
+
+  nav a:hover {
+    background-color: #243925;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+
+  figure {
+    position: relative;
+    z-index: 1;
+    color: #000000;
+    margin: 1em;
+    font-size: 1.5em;
+    text-align: center;
+    transition: all ease-out 0.5s;
+  }
+  
+  figure:hover {
+    z-index: 999;
+    color: rgba(0, 0, 0, 1);
+    transform: scale(1.1);
+  }
+
+  .boardimagealign {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .image-container {
+    text-align: center; /* Centers image and caption */
+    max-width: 300px; /* Optional: Set max width for the figure */
+    margin: 2em auto; /* Centers the figure container */
+}
+
+.caption {
+    margin-top: 8px; /* Adds space between image and caption */
+    font-size: 14px; /* Adjust font size as desired */
+    color: #666; /* Adjust color as desired */
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+  }
+
+.box {
+    box-shadow: 5px 5px 8px #000000;
+    margin: 5em;
+    padding: 20px; /* Increase padding for better layout */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Adds space between heading and content */
+    background-color: #f9fff9;
+}
+
+.text-image-container {
+    display: flex;
+    align-items: flex-start; /* Aligns text and image to the top */
+    gap: 100px; /* Space between text and image */
+}
+
+.text-content {
+    max-width: 50%; /* Optional: Limits width of the text section */
+}
+
+img {
+    border-radius: 20px; /* Rounds image corners for a softer look */
+}
+
+p{
+    font-size: larger;
+}
+
+fieldset {
+    width: 800px;
+    border: 2px solid #c1e7c2;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 10px;
+    margin: auto;
+    border-radius: 8px;
+  }
+  
+  legend {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+  }
+  
+  label {
+    padding-left: 10px;
+  }
+  
+  .button {
+    background-color: #c1e7c2;
+    border: none;
+    color: #000000;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+  }
+  
+  .button:hover {
+    background-color: #243925;
+    color: #FFFFFF;
+  }
+  
+  input[type="text"], input[type="email"] {
+    width: 79%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #c1e7c2;
+    border-radius: 8px;
+    background-color: #eaeaea;
+  }
+  
+  textarea {
+    width: 85%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #c1e7c2;
+    border-radius: 8px;
+    background-color: #eaeaea;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  select {
+    width: 85%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #c1e7c2;
+    border-radius: 8px;
+    background-color: #c1e7c2;
+    color: #000000;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+
+  figcaption{
+    font-size: larger;
+  }

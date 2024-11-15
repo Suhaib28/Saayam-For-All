@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+    <title>Saayam For All</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="saayam.css">
+    </head>
+    <body>
+       <header class="header">
+        <img src="SaayamForAll.png" alt="Saayam For All Logo" class="logo">
+        <h1>Saayam For All</h1>
+       </header> 
+       <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="board.html">BOARD OF DIRECTORS</a></li>
+            <li><a href="register.html">REGISTER</a></li>
+            <li><a href="donate.html">DONATE</a></li>
+        </ul>
+       </nav>
+       <main>
+        <h2>Register With Us Today!</h2>
+        <form name="Saayam" method="post" id="register" action="#">
+            <fieldset>
+                <legend>Sign Up</legend>
+                <label>Name: <input type="text" name="Name" id="Name" required></label><br><br>
+                <label>Email: <input type="email" name="email" id="email" required></label><br><br>
+                <label>Phone: <input type="text" name="phone" id="phone" required></label><br><br>
+                <label>Gender:</label><br><br>
+                <label>
+                    <select size="1" name="gender" id="gender">
+                    <option value="Gender">Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                    <option value="Prefer Not To Say">Prefer Not To Say</option>
+                </select>
+                </label><br><br>
+                <label>City: <input type="text" name="city" id="city" required></label><br><br>
+                <label>State: <input type="text" name="state" id="state" required></label><br><br>
+                <label>Country: <input type="text" name="country" id="country" required></label><br><br>
+                <label><input type="submit" value="Submit" class="button"></label>
+                <label><input type="reset" value="Reset" class="button"></label>
+            </fieldset>
+        </form>
+       </main>
+    </body>
+</html>
+
